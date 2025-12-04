@@ -3,8 +3,6 @@
 #ifndef __DEBUG_H
 #define __DEBUG_H
 
-#define DEBUG 1
-
 #ifdef DEBUG
   #warning "Verbose debug messages will be activated for this module!"
   #define DBG_PRINT(fmt, ...)   { \
